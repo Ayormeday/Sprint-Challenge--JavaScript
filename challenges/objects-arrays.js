@@ -5,29 +5,29 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
-// const dinosaurs = [{
-//   'name': 'tyrannosaurus',
-//   'diet': 'carnivorous',
-//   weight: 7000kg,
-//   length: 12m,
-//   period: 'Late Cretaceous',
-// },
-// {
-//   name: 'stegosaurus',
-//   diet: 'herbivorous',
-//   weight: 2000kg,
-//   length: 9m,
-//   period: 'Late Jurassic',
-// },
-// {
-//   name: 'velociraptor',
-//   diet: 'carnivorous',
-//   weigh: 15kg,
-//   length: 1.8m,
-//   period: 'Late Cretaceous',
+const dinosaurs = [{
+  'name': 'tyrannosaurus',
+  'diet': 'carnivorous',
+  'weight': 7000,
+  'length': 12,
+  'period': 'Late Cretaceous',
+},
+{
+  'name': 'stegosaurus',
+  'diet': 'herbivorous',
+  'weight': 2000,
+  'length': 9,
+  'period': 'Late Jurassic',
+},
+{
+  'name': 'velociraptor',
+  'diet': 'carnivorous',
+  'weight': 15,
+  'length': 1.8,
+  'period': 'Late Cretaceous',
 
-// }
-// ];
+}
+];
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic

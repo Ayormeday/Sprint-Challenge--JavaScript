@@ -99,8 +99,9 @@ console.log(contactInfo);
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 const uni = [];
 
-const newUni = graduates.forEach(info => {
-  (uni.push(`${info.university}`)); 
+const newUni = graduates.forEach(info => { 
+  return (uni.push(`${info.university}`)); 
+
 });
 
 
@@ -150,15 +151,15 @@ console.log(lowerCase);
 
 /* Request 3: .filter() 
 
-The zoos are concenred about animals with a lower population count. 
+The zoos are concenred about animals with a 
+lower population count. 
 Find out which animals have a population less than 5.
 
 */
-const lowerPopulation = [];
+// const lowerPopulation = [];
 
-const lowerPop = zooAnimals.filter(info => {
-  lowerPopulation.push(info.animal_name, info.population < 5);
-});
+const lowerPopulation = zooAnimals.filter(info => 
+  info.population < 5);
 
 
 console.log(lowerPopulation);

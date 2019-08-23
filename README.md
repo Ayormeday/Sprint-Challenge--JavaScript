@@ -29,10 +29,14 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+forEach must loop through entire array, while .map() 
 
 2. What is the difference between a function and a method?
 
+a function is stand alone while a method is a function nested inside an object.
+
 3. What is closure?
+ a closure is a code identified in the global scope that can be re-used somewhere along the line of code. 
 
 4. Describe the four rules of the 'this' keyword.
 

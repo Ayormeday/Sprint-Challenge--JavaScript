@@ -5,29 +5,33 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
-const dinosaurs = [{
+const obj1 = {
   'name': 'tyrannosaurus',
   'diet': 'carnivorous',
-  'weight': 7000,
-  'length': 12,
+  'weight': 7000 + 'kg',
+  'length': 12 + 'm',
   'period': 'Late Cretaceous',
-},
-{
+  'roar' : function(){
+    return 'AWERSRARARWERSARARARRRR!'
+  }
+};
+const obj2 = {
   'name': 'stegosaurus',
   'diet': 'herbivorous',
-  'weight': 2000,
-  'length': 9,
+  'weight': 2000 + 'kg',
+  'length': 9 + 'm',
   'period': 'Late Jurassic',
-},
+};
+
+const obj3 =
 {
   'name': 'velociraptor',
   'diet': 'carnivorous',
-  'weight': 15,
-  'length': 1.8,
+  'weight': 15 + 'kg',
+  'length': 1.8 + 'm',
   'period': 'Late Cretaceous',
 
-}
-];
+};
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
@@ -37,16 +41,16 @@ const dinosaurs = [{
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(obj1.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(obj3.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(obj2.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(obj1.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
